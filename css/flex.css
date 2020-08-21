@@ -7,7 +7,7 @@ body {
 h1 {
     font-size: 70px;
     margin-top: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     mix-blend-mode: screen;
     /* This makes the cutout text possible */
 }
@@ -42,6 +42,8 @@ header {
 
 .box span {
     color: white;
+    text-shadow: 1px 1px #000000;
+    display: inline-block;
 }
 
 h3>span {
@@ -77,31 +79,12 @@ h3>span {
     margin: 2px;
 }
 
-.fire::after {
-    content: "FIRE";
-}
-
-.fire {
-    display: inline-block;
-    background-color: rgba(255, 0, 0, 0.7);
-}
-
-.water::after {
-    content: "WATER";
-}
-
-.water {
-    display: inline-block;
-    background-color: rgba(100, 0, 255, 0.7);
-}
-
 .bug::after {
     content: "BUG";
 }
 
 .bug {
-    display: inline-block;
-    background-color: rgba(168, 185, 59, 0.7);
+    background-color: rgba(168, 185, 59, 0.75);
 }
 
 .dark::after {
@@ -109,6 +92,141 @@ h3>span {
 }
 
 .dark {
-    display: inline-block;
-    background-color: rgba(15, 15, 15, 0.7);
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.dragon::after {
+    content: "DRAGON";
+}
+
+.dragon {
+    background-color: rgba(215, 45, 20, 0.75);
+}
+
+.electric::after {
+    content: "ELECTRIC";
+}
+
+.electric {
+    background-color: rgba(200, 200, 0, 0.75);
+}
+
+.fairy::after {
+    content: "FAIRY";
+}
+
+.fairy {
+    background-color: rgba(220, 30, 220, 0.75);
+}
+
+.fighting::after {
+    content: "FIGHTING";
+}
+
+.fighting {
+    background-color: rgba(100, 10, 10, 0.75);
+}
+
+.fire::after {
+    content: "FIRE";
+}
+
+.fire {
+    background-color: rgba(255, 0, 0, 0.75);
+}
+
+.fire::after {
+    content: "FIRE";
+}
+
+.fire {
+    background-color: rgba(255, 0, 0, 0.75);
+}
+
+.flying::after {
+    content: "FLYING";
+}
+
+.flying {
+    background-color: rgba(160, 160, 150, 0.75);
+}
+
+.ghost::after {
+    content: "GHOST";
+}
+
+.ghost {
+    background-color: rgba(10, 20, 100, 0.75);
+}
+
+.grass::after {
+    content: "GRASS";
+}
+
+.grass {
+    background-color: rgba(70, 255, 70, 0.75);
+}
+
+.ground::after {
+    content: "GROUND";
+}
+
+.ground {
+    background-color: rgba(5, 100, 5, 0.75);
+}
+
+.ice::after {
+    content: "ICE";
+}
+
+.ice {
+    background-color: rgba(100, 215, 210, 0.75);
+}
+
+.normal::after {
+    content: "NORMAL";
+}
+
+.normal {
+    background-color: rgba(100, 100, 100, 0.75);
+}
+
+.poison::after {
+    content: "POISON";
+}
+
+.poison {
+    background-color: rgba(160, 20, 150, 0.75);
+}
+
+.psychic::after {
+    content: "PSYCHIC";
+}
+
+.psychic {
+    background-color: rgba(235, 100, 150, 0.75);
+}
+
+.rock::after {
+    content: "ROCK";
+}
+
+.rock {
+    background-color: rgba(50, 120, 50, 0.75);
+}
+
+.steel::after {
+    content: "STEEL";
+}
+
+.steel {
+    background-color: rgba(100, 100, 100, 0.75);
+}
+
+.water::after {
+    content: "WATER";
+}
+
+.water {
+    background-color: rgba(0, 0, 255, 0.75);
 }
