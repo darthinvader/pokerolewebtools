@@ -8,7 +8,7 @@ var my_navbar = '\
     <a class="nav-link" href="damagetypechart.html">Damage Type Chart</a>\
 </li>\
 <li class="nav-item">\
-    <a class="nav-link" href="#">Pokedex</a>\
+    <a class="nav-link" href="./fight/encounter-builder.html">Pokedex</a>\
 </li>';
 
 $(document).ready(function () {   
