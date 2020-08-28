@@ -1,0 +1,254 @@
+{
+    "Bug": {
+        "SuperEffective": [
+            "Dark",
+            "Grass",
+            "Psychic"
+        ],
+        "NotVeryEffective": [
+            "Fairy",
+            "Fighting",
+            "Fire",
+            "Flying",
+            "Ghost",
+            "Steel"
+        ],
+        "Immune": []
+    },
+    "Dark": {
+        "SuperEffective": [
+            "Ghost",
+            "Psychic"
+        ],
+        "NotVeryEffective": [
+            "Dark",
+            "Fairy",
+            "Figthing"
+        ],
+        "Immune": []
+    },
+    "Dragon": {
+        "SuperEffective": [
+            "Dragon"
+        ],
+        "NotVeryEffective": [
+            "Steel"
+        ],
+        "Immune": [
+            "Fairy"
+        ]
+    },
+    "Electric": {
+        "SuperEffective": [
+            "Flying",
+            "Water"
+        ],
+        "NotVeryEffective": [
+            "Dragon",
+            "Electric",
+            "Grass"
+        ],
+        "Immune": [
+            "Ground"
+        ]
+    },
+    "Fairy": {
+        "SuperEffective": [
+            "Dark",
+            "Dragon",
+            "Fighting"
+        ],
+        "NotVeryEffective": [
+            "Fire",
+            "Poison",
+            "Steel"
+        ],
+        "Immune": []
+    },
+    "Fighting": {
+        "SuperEffective": [
+            "Ice",
+            "Normal",
+            "Rock",
+            "Steel",
+            "Dark"
+        ],
+        "NotVeryEffective": [
+            "Bug",
+            "Fairy",
+            "Flying",
+            "Poison",
+            "Psychic"
+        ],
+        "Immune": [
+            "Ghost"
+        ]
+    },
+    "Fire": {
+        "SuperEffective": [
+            "Bug",
+            "Grass",
+            "Ice",
+            "Steel"
+        ],
+        "NotVeryEffective": [
+            "Dragon",
+            "Fire",
+            "Rock",
+            "Water"
+        ],
+        "Immune": []
+    },
+    "Flying": {
+        "SuperEffective": [
+            "Bug",
+            "Fighting",
+            "Grass"
+        ],
+        "NotVeryEffective": [
+            "Electric",
+            "Rock",
+            "Steel"
+        ],
+        "Immune": []
+    },
+    "Ghost": {
+        "SuperEffective": [
+            "Ghost",
+            "Psychic"
+        ],
+        "NotVeryEffective": [
+            "Dark"
+        ],
+        "Immune": [
+            "Normal"
+        ]
+    },
+    "Grass": {
+        "SuperEffective": [
+            "Ground",
+            "Rock",
+            "Water"
+        ],
+        "NotVeryEffective": [
+            "Bug",
+            "Dragon",
+            "Fire",
+            "Flying",
+            "Grass",
+            "Poison",
+            "Steel"
+        ],
+        "Immune": []
+    },
+    "Ground": {
+        "SuperEffective": [
+            "Electric",
+            "Fire",
+            "Poison",
+            "Rock",
+            "Steel"
+        ],
+        "NotVeryEffective": [
+            "Bug",
+            "Grass"
+        ],
+        "Immune": [
+            "Flying"
+        ]
+    },
+    "Ice": {
+        "SuperEffective": [
+            "Dragon",
+            "Flying",
+            "Grass",
+            "Ground"
+        ],
+        "NotVeryEffective": [
+            "Fire",
+            "Ice",
+            "Steel",
+            "Water"
+        ],
+        "Immune": []
+    },
+    "Normal": {
+        "SuperEffective": [
+            "Rock",
+            "Steel"
+        ],
+        "NotVeryEffective": [],
+        "Immune": [
+            "Ghost"
+        ]
+    },
+    "Poison": {
+        "SuperEffective": [
+            "Fairy",
+            "Grass"
+        ],
+        "NotVeryEffective": [
+            "Ghost",
+            "Ground",
+            "Poison",
+            "Rock"
+        ],
+        "Immune": [
+            "Steel"
+        ]
+    },
+    "Psychic": {
+        "SuperEffective": [
+            "Fighting",
+            "Poison"
+        ],
+        "NotVeryEffective": [
+            "Psychic",
+            "Steel"
+        ],
+        "Immune": [
+            "Dark"
+        ]
+    },
+    "Rock": {
+        "SuperEffective": [
+            "Bug",
+            "Fire",
+            "Flying",
+            "Ice"
+        ],
+        "NotVeryEffective": [
+            "Fighting",
+            "Ground",
+            "Steel"
+        ],
+        "Immune": []
+    },
+    "Steel": {
+        "SuperEffective": [
+            "Fairy",
+            "Ice",
+            "Rock"
+        ],
+        "NotVeryEffective": [
+            "Electric",
+            "Fire",
+            "Steel",
+            "Water"
+        ],
+        "Immune": []
+    },
+    "Water": {
+        "SuperEffective": [
+            "Fire",
+            "Ground",
+            "Rock"
+        ],
+        "NotVeryEffective": [
+            "Dragon",
+            "Grass",
+            "Water"
+        ],
+        "Immune": []
+    }
+}
