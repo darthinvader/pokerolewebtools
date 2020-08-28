@@ -1,0 +1,84 @@
+:root {
+    --attribute_color: #a4a4a4;
+}
+
+/* .pokemon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 10px;
+    margin: 5px;
+    grid-template-areas: ". attributes attributes . ." ". . . . ." ". . . . ." ". . . . .";
+    column-gap: 1em;
+    row-gap: 1em;
+} */
+
+.attributes {
+    background-color: var(--attribute_color);
+}
+
+.attributes h3 {
+    font-size: 1.5em;
+    margin: 0.3em;
+    text-align: center;
+}
+
+.attributes h4 {
+    font-size: 1em;
+    margin: 0.3em;
+    text-align: center;
+}
+
+.attributes ul p {
+    text-transform: capitalize;
+    text-align: left;
+    margin: 0px;
+    margin-top: 3px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.attributes ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: -4px;
+    margin-bottom: -7px;
+}
+
+.attributes li {
+    border-radius: 50%;
+    display: inline-block;
+    flex-direction: column-reverse;
+    background-color: white;
+    width: 1.5em;
+    height: 1.5em;
+    border: solid;
+    border-width: 0.1em;
+    border-color: var(--attribute_color);
+    z-index: 2;
+}
+
+.attributes li.increased {
+    background-color: blue;
+}
+
+.attributes li.tmp {
+    background-color: red;
+}
+
+.attributes li.base {
+    background-color: black;
+}
+
+.attributes li.increased.tmp {
+    background-color: purple;
+}
+
+.attributes li.tmp.base {
+    background-color: rgb(127, 0, 0);
+}
+
+.body_type p {
+    display: inline-block;
+}
