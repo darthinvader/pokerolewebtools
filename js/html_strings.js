@@ -15,4 +15,5 @@ $(document).ready(function () {
     $('.navbar-nav').append(my_navbar); 
     damageChart();
     document.getElementById("chart").style.visibility = "hidden";
+
 });
