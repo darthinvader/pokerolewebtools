@@ -1,5 +1,5 @@
 'use strict';
-
+//==================================== Creation of navbar links ===========================================//
 var my_navbar = '\
 <li class="nav-item active">\
     <a class="nav-link" href="#home" onclick="displayHome();">Home <span class="sr-only">(current)</span></a>\
@@ -11,6 +11,9 @@ var my_navbar = '\
     <a class="nav-link" href="#pokedex" onclick="displayPokedex();">Pokedex</a>\
 </li>';
 
+/**
+ * When document loads navbar must be visible,damage type chart must be created but not shown 
+ */
 $(document).ready(function () {   
     $('.navbar-nav').append(my_navbar); 
     damageChart();
