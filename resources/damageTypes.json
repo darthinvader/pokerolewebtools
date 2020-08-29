@@ -173,11 +173,11 @@
         "Immune": []
     },
     "Normal": {
-        "SuperEffective": [
+        "SuperEffective": [],
+        "NotVeryEffective": [
             "Rock",
             "Steel"
         ],
-        "NotVeryEffective": [],
         "Immune": [
             "Ghost"
         ]
