@@ -3,25 +3,10 @@
 function readJSON(){
 
     $.getJSON("resources/damageTypes.json",function(json){
-        damageCards(json.Bug,1);
-        damageCards(json.Dark,2);
-        damageCards(json.Dragon,3);
-        damageCards(json.Electric,4);
-        damageCards(json.Fairy,5);
-        damageCards(json.Fighting,6);
-        damageCards(json.Fire,7);
-        damageCards(json.Flying,8);
-        damageCards(json.Ghost,9);
-        damageCards(json.Grass,10);
-        damageCards(json.Ground,11);
-        damageCards(json.Ice,12);
-        damageCards(json.Normal,13);
-        damageCards(json.Poison,14);
-        damageCards(json.Psychic,15);
-        damageCards(json.Rock,16);
-        damageCards(json.Steel,17);
-        damageCards(json.Water,18);
-        
+        var i=1;
+        for (const key of Object.keys(json)) {
+            damageCards(json[key],i++);
+        }
     });
 
 }
