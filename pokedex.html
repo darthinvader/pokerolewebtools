@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+        integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/pokedex.css">
+    <link rel="stylesheet" href="css/pokerole.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flex.css">
+
+    <!-- <link rel="stylesheet" href="css/flex.css"> -->
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#home">
+            <img src="favicon.ico" width="30" height="30" class="d-inline-block align-top" alt="">
+            Pokerole
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav"></ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="pokedex-entries" class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-12">
+                <div class="row pb-3 p-1 m-0 mb-3 ml-2">
+                    <form class="form-line search-bar has-search mt-3 mb-3 col-12">
+                        <input class="form-control" type="search" placeholder="Search Pokemon" aria-label="Search">
+                    </form>
+                    <select class="form-control filter col-6">
+                        <option value="" class="" selected="selected">Any Type 1</option>
+                    </select>
+                    <select class="form-control filter col-6">
+                        <option value="" class="" selected="selected">Any Type 2</option>
+                    </select>
+                    <select class="form-control filter col-6">
+                        <option value="" class="" selected="selected">Any Legendary</option>
+                        <option label="Not Legendary" value="string:Not Legendary">Not Legendary</option>
+                        <option label="Legendary" value="string:Legendary">Legendary</option>
+                    </select>
+                    <select class="form-control filter col-6">
+                        <option value="" class="" selected="selected">Rank</option>
+                    </select>
+                    <select class="form-control filter col-6">
+                        <option value="" class="" selected="selected">Generation</option>
+                    </select>
+                    <select class="form-control filter col-6">
+                        <option value="" class="" selected="selected">Region</option>
+                    </select>
+                </div>
+                <div class="pokemon selected">
+                    <p>Balba</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+                <div class="pokemon">
+                    <p>Bulbasaur</p>
+                    <span class="type grass"></span>
+                    <span class="type poison"></span>
+                    <hr>
+                </div>
+            </div>
+            <div id="pokemon-stat-sheet"
+                class="offset-xl-3 offset-lg-4 offset-md-5 col-xl-6 col-lg-5 col-md-4 col-sm-2 col-0">
+                <h2 class="name ID">#1 Bulbasaur</h2>
+                <p class="pokedex_entry_data">It carries a seed on its back since birth. As it grows older, the seed
+                    also
+                    grows larger. It is known to be a well-behaved and loyal Pokémon, but pretty rare to find in the
+                    wild.
+                </p>
+                <div class="general-information">
+                    <h4>General Information</h4>
+                    <hr>
+                </div>
+                <div class="Evolutions">
+                    <h4>Evolutions</h4>
+                    <hr>
+                    <!-- Images with evolutions and ID-Name when clicked-->
+                </div>
+                <div class="statistics">
+                    <h4>Stats</h4>
+                    <hr>
+                    <div class="stats">
+                        <ul class="strength">
+                            <p>Strength</p>
+                            <li class="base"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="dexterity">
+                            <p>dexterity</p>
+                            <li class="base"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="special">
+                            <p>special</p>
+                            <li class="base"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="vitality">
+                            <p>vitality</p>
+                            <li class="base"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="insight">
+                            <p>insight</p>
+                            <li class="base"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="base-hp">
+                            <p>Base HP</p>
+                            <li class="base"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="Abilities">
+                    <h4>Abilities</h4>
+                    <hr>
+                </div>
+            </div>
+
+            <div id="moves" class="offset-xl-9 col-xl-3 position-fixed">
+                <h2>Moves</h2>
+                <hr>
+
+                <div class="move">
+                    <span class="fire type"></span>
+                    <h6>Tackle</h6>
+                    <div class="accuracy">
+                        <svg height="1.5em" width="1.5em">
+                            <circle cx="12" cy="12" r="8" stroke="black" stroke-width="1" fill="none" />
+                            <circle cx="12" cy="12" r="1" stroke="black" fill="black" />
+                            <line x1="0" y1="12" x2="8" y2="12" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="16" y1="12" x2="24" y2="12" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="12" y1="0" x2="12" y2="8" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="12" y1="16" x2="12" y2="24" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                        </svg>
+                        <p>Dexterity + Brawl</p>
+                    </div>
+                    <div class="damage">
+                        <svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-droplet-fill" fill="black"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6zM6.646 4.646c-.376.377-1.272 1.489-2.093 3.13l.894.448c.78-1.559 1.616-2.58 1.907-2.87l-.708-.708z" />
+                        </svg>
+                        <p>Strength + Brawl</p>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias similique, nemo debitis
+                            facere perferendis error optio tenetur. Dolore qui nostrum aliquam iusto cum. Facere
+                            voluptatem laudantium ad dolorem, itaque tempora, saepe illum impedit iure sint ducimus
+                            necessitatibus minus totam nobis minima quae.</p>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="move">
+                    <span class="fire type"></span>
+                    <h6>Tackle</h6>
+                    <div class="accuracy">
+                        <svg height="1.5em" width="1.5em">
+                            <circle cx="12" cy="12" r="8" stroke="black" stroke-width="1" fill="none" />
+                            <circle cx="12" cy="12" r="1" stroke="black" fill="black" />
+                            <line x1="0" y1="12" x2="8" y2="12" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="16" y1="12" x2="24" y2="12" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="12" y1="0" x2="12" y2="8" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="12" y1="16" x2="12" y2="24" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                        </svg>
+                        <p>Dexterity + Brawl</p>
+                    </div>
+                    <div class="damage">
+                        <svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-droplet-fill" fill="black"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6zM6.646 4.646c-.376.377-1.272 1.489-2.093 3.13l.894.448c.78-1.559 1.616-2.58 1.907-2.87l-.708-.708z" />
+                        </svg>
+                        <p>Strength + Brawl</p>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias similique, nemo debitis
+                            facere perferendis error optio tenetur. Dolore qui nostrum aliquam iusto cum. Facere
+                            voluptatem laudantium ad dolorem, itaque tempora, saepe illum impedit iure sint ducimus
+                            necessitatibus minus totam nobis minima quae.</p>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="move">
+                    <span class="fire type"></span>
+                    <h6>Tackle</h6>
+                    <div class="accuracy">
+                        <svg height="1.5em" width="1.5em">
+                            <circle cx="12" cy="12" r="8" stroke="black" stroke-width="1" fill="none" />
+                            <circle cx="12" cy="12" r="1" stroke="black" fill="black" />
+                            <line x1="0" y1="12" x2="8" y2="12" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="16" y1="12" x2="24" y2="12" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="12" y1="0" x2="12" y2="8" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="12" y1="16" x2="12" y2="24" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                        </svg>
+                        <p>Dexterity + Brawl</p>
+                    </div>
+                    <div class="damage">
+                        <svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-droplet-fill" fill="black"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6zM6.646 4.646c-.376.377-1.272 1.489-2.093 3.13l.894.448c.78-1.559 1.616-2.58 1.907-2.87l-.708-.708z" />
+                        </svg>
+                        <p>Strength + Brawl</p>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias similique, nemo debitis
+                            facere perferendis error optio tenetur. Dolore qui nostrum aliquam iusto cum. Facere
+                            voluptatem laudantium ad dolorem, itaque tempora, saepe illum impedit iure sint ducimus
+                            necessitatibus minus totam nobis minima quae.</p>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="move">
+                    <span class="fire type"></span>
+                    <h6>Tackle</h6>
+                    <div class="accuracy">
+                        <svg height="1.5em" width="1.5em">
+                            <circle cx="12" cy="12" r="8" stroke="black" stroke-width="1" fill="none" />
+                            <circle cx="12" cy="12" r="1" stroke="black" fill="black" />
+                            <line x1="0" y1="12" x2="8" y2="12" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="16" y1="12" x2="24" y2="12" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="12" y1="0" x2="12" y2="8" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="12" y1="16" x2="12" y2="24" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                        </svg>
+                        <p>Dexterity + Brawl</p>
+                    </div>
+                    <div class="damage">
+                        <svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-droplet-fill" fill="black"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6zM6.646 4.646c-.376.377-1.272 1.489-2.093 3.13l.894.448c.78-1.559 1.616-2.58 1.907-2.87l-.708-.708z" />
+                        </svg>
+                        <p>Strength + Brawl</p>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias similique, nemo debitis
+                            facere perferendis error optio tenetur. Dolore qui nostrum aliquam iusto cum. Facere
+                            voluptatem laudantium ad dolorem, itaque tempora, saepe illum impedit iure sint ducimus
+                            necessitatibus minus totam nobis minima quae.</p>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="move">
+                    <span class="fire type"></span>
+                    <h6>Tackle</h6>
+                    <div class="accuracy">
+                        <svg height="1.5em" width="1.5em">
+                            <circle cx="12" cy="12" r="8" stroke="black" stroke-width="1" fill="none" />
+                            <circle cx="12" cy="12" r="1" stroke="black" fill="black" />
+                            <line x1="0" y1="12" x2="8" y2="12" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="16" y1="12" x2="24" y2="12" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="12" y1="0" x2="12" y2="8" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="12" y1="16" x2="12" y2="24" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                        </svg>
+                        <p>Dexterity + Brawl</p>
+                    </div>
+                    <div class="damage">
+                        <svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-droplet-fill" fill="black"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6zM6.646 4.646c-.376.377-1.272 1.489-2.093 3.13l.894.448c.78-1.559 1.616-2.58 1.907-2.87l-.708-.708z" />
+                        </svg>
+                        <p>Strength + Brawl</p>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias similique, nemo debitis
+                            facere perferendis error optio tenetur. Dolore qui nostrum aliquam iusto cum. Facere
+                            voluptatem laudantium ad dolorem, itaque tempora, saepe illum impedit iure sint ducimus
+                            necessitatibus minus totam nobis minima quae.</p>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="move">
+                    <span class="fire type"></span>
+                    <h6>Tackle</h6>
+                    <div class="accuracy">
+                        <svg height="1.5em" width="1.5em">
+                            <circle cx="12" cy="12" r="8" stroke="black" stroke-width="1" fill="none" />
+                            <circle cx="12" cy="12" r="1" stroke="black" fill="black" />
+                            <line x1="0" y1="12" x2="8" y2="12" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="16" y1="12" x2="24" y2="12" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="12" y1="0" x2="12" y2="8" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                            <line x1="12" y1="16" x2="12" y2="24" style="stroke:rgb(0,0,0);stroke-width:1.5" />
+                        </svg>
+                        <p>Dexterity + Brawl</p>
+                    </div>
+                    <div class="damage">
+                        <svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-droplet-fill" fill="black"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6zM6.646 4.646c-.376.377-1.272 1.489-2.093 3.13l.894.448c.78-1.559 1.616-2.58 1.907-2.87l-.708-.708z" />
+                        </svg>
+                        <p>Strength + Brawl</p>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias similique, nemo debitis
+                            facere perferendis error optio tenetur. Dolore qui nostrum aliquam iusto cum. Facere
+                            voluptatem laudantium ad dolorem, itaque tempora, saepe illum impedit iure sint ducimus
+                            necessitatibus minus totam nobis minima quae.</p>
+                    </div>
+                </div>
+                <hr>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
