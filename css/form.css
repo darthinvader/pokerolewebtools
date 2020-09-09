@@ -1,0 +1,23 @@
+#register-form{
+
+    height: 100%;
+    width: 40%;
+    background-color: bisque;
+    padding: 20px;
+    
+}
+
+#login-form{
+    height: auto;
+    width: 30%;
+    background-color: rgba(255, 80, 80, 0.205);
+    border: black 2px solid;
+    padding: 20px;
+
+    left: 50%;
+    top: 65%;
+    position: absolute;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
