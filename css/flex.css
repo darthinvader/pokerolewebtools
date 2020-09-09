@@ -54,7 +54,7 @@ h3>span {
 .box>div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: right;
+    justify-content: left;
     text-align: center;
     flex-direction: row;
     margin: 2px;

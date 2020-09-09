@@ -14,9 +14,8 @@ var my_navbar = '\
 /**
  * When document loads navbar must be visible,damage type chart must be created but not shown 
  */
-$(document).ready(function () {   
-    $('.navbar-nav').append(my_navbar); 
+$(document).ready(function () {
+    $('.navbar-nav').append(my_navbar);
     damageChart();
     document.getElementById("chart").style.visibility = "hidden";
-
 });
