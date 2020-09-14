@@ -40,13 +40,9 @@ var login = '\
 $(document).ready(function () {
     $('.navbar-nav').append(my_navbar);
     damageChart();
-<<<<<<< HEAD
-    document.getElementById("chart").style.visibility = "hidden";
-=======
     document.getElementById("chart").style.display = "none";
     $('.container-fluid').append(login);
     $('.container-fluid').append(login_form);
     // $('.container-fluid').append(pokeball);
     $('.container-fluid').show();
->>>>>>> 8e643109b438f304c0bf18f530640183fb6cc26d
 });
